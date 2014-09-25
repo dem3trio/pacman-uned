@@ -1,0 +1,38 @@
+{
+	"level_box_size": 20,
+	"invincible_mode_duration": 5000,
+	"ghosts": [
+			{	
+				"id": "red",
+				"name": "Blinky",
+				"HvsV": 90,
+				"speed": 100,
+				"accuracy_threshold": 80,
+				"imageset": "red"
+			},
+			{
+				"id": "blue",
+				"name": "Inky",
+				"HvsV": 50,
+				"speed": 100,
+				"accuracy_threshold": 80,
+				"imageset": "blue"
+			},
+			{
+				"id": "pink",
+				"name": "Pinky",
+				"HvsV": 10,
+				"speed": 100,
+				"accuracy_threshold": 80,
+				"imageset": "pink"
+			},
+			{
+				"id": "orange",
+				"name": "Blinky",
+				"HvsV": 50,
+				"speed": 100,
+				"accuracy_threshold": 40,
+				"imageset": "orange"
+			}
+		]
+}
