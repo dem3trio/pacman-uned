@@ -5,6 +5,13 @@ Pacman realizado para practica de la asignatura de Programación Orientada a Obj
 
 Lo primero decir, que esta no es la mejor implementación de Pacman en java ni mucho menos. Sólo es una más.
 
+Remarcar, que esta implementación no es 100% fiel al pacman original ya que implementa lo pedido por el equipo docente. Es decir, **no se incluye**
+  * Diferentes velocidades. (Se usa, como se pedia, una implementación en JPanel, por lo que implementar un sistema de velocidad podría dar lugar a posibles fallos en las colisiones. Lo ideal sería modificar el bucle principal del programa. Para los más curiosos, en la clase principal hay una posible aproximación de cómo sería el bucle)
+  * sólo 3 fantasmas (aunque es posible añadir más vía configuración).
+  * sonido. (no me acordé XD)
+
+Algo que no estaba incluido en la práctica y que sí se ha creado es un pequeño y muy sencillo sistema de animación para gestionar las animaciones de pacman y los fantasmas.
+
 Se incluye en este README el análisis de la aplicación incluido en la memoria entregada al tutor para que puedas entender cómo se ha planeado la práctica.
 
 Analisis de la aplicacion
