@@ -12,6 +12,8 @@ Remarcar, que esta implementación no es 100% fiel al pacman original ya que imp
 
 Algo que no estaba incluido en la práctica y que sí se ha creado es un pequeño y muy sencillo sistema de animación para gestionar las animaciones de pacman y los fantasmas.
 
+El movimiento de pacman es como en el original, no hace falta estar pulsando en todo momento las teclas de dirección. Si por ejemplo, estas moviendo a la derecha y sueltas, pacman seguira moviendose hacia la derecha hasta que encuentre un obstáculo. En caso de cambiar dirección solo cambiará en el momento que no se encuentre un obstáculo en la dirección deseada, mientras seguirá su dirección actual.
+
 Se incluye en este README el análisis de la aplicación incluido en la memoria entregada al tutor para que puedas entender cómo se ha planeado la práctica.
 
 Analisis de la aplicacion
