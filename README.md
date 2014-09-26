@@ -5,12 +5,12 @@ Pacman realizado para practica de la asignatura de Programación Orientada a Obj
 
 Lo primero decir, que esta no es la mejor implementación de Pacman en java ni mucho menos. Sólo es una más.
 
-Remarcar, que esta implementación no es 100% fiel al pacman original ya que implementa lo pedido por el equipo docente. Es decir, **no se incluye**
-  * Diferentes velocidades. (Se usa, como se pedia, una implementación en JPanel, por lo que implementar un sistema de velocidad podría dar lugar a posibles fallos en las colisiones. Lo ideal sería modificar el bucle principal del programa. Para los más curiosos, en la clase principal hay una posible aproximación de cómo sería el bucle)
-  * sólo 3 fantasmas (aunque es posible añadir más vía configuración).
-  * sonido. (no me acordé XD)
+Remarcar, que esta implementación no es 100% fiel al pacman original ya que implementa lo pedido por el equipo docente. Es decir:
+  * **no se incluyen diferentes velocidades ** (Se usa, como se pedia, una implementación en JPanel, por lo que implementar un sistema de velocidad podría dar lugar a posibles fallos en las colisiones. Lo ideal sería modificar el bucle principal del programa. Para los más curiosos, en la clase principal hay una posible aproximación de cómo sería el bucle)
+  * **sólo hay 3 fantasmas** aunque es posible añadir más vía configuración. En el pacman original hay 4
+  * ** no hay sonido ** no me acordé XD
 
-Algo que no estaba incluido en la práctica y que sí se ha creado es un pequeño y muy sencillo sistema de animación para gestionar las animaciones de pacman y los fantasmas.
+Algo que no estaba incluido en la práctica y que sí se ha creado es un pequeño y muy sencillo **sistema de animación** para gestionar las animaciones de pacman y los fantasmas.
 
 El movimiento de pacman es como en el original, no hace falta estar pulsando en todo momento las teclas de dirección. Si por ejemplo, estas moviendo a la derecha y sueltas, pacman seguira moviendose hacia la derecha hasta que encuentre un obstáculo. En caso de cambiar dirección solo cambiará en el momento que no se encuentre un obstáculo en la dirección deseada, mientras seguirá su dirección actual.
 
